@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket      = "gke-tf-demo-tfstate"
+    bucket      = "gcp-tomasz-kcc-test-project-tfstate"
     credentials = "./creds/serviceaccount.json"
   }
 }
